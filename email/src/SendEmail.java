@@ -15,6 +15,7 @@ public class SendEmail
       String from ="saiteju7798@gmail.com" ;  
       String host = "smtp.gmail.com";//or IP address  
   
+
      //Get the session object  
       Properties properties = System.getProperties();  
       properties.setProperty("mail.smtp.host", host); 
